@@ -9,61 +9,27 @@ For this analysis, the data source that was used was LoanStats_2019Q1.csv file a
 ##Results: 
 
 ##RandomOverSampler Model
-                  pre       rec       spe        f1       geo       iba       sup
-
-  high_risk       0.01      0.62      0.68      0.02      0.65      0.42        87
-   low_risk       1.00      0.68      0.62      0.81      0.65      0.42     17118
-
-avg / total       0.99      0.68      0.62      0.80      0.65      0.42     17205
-
+![image](https://user-images.githubusercontent.com/96396696/175616400-13df0a06-577c-4589-ab1e-bb9d00cb1fc2.png)
 The balanced accuracy score was 0.65 (0.6497536370265621), the precision score is 0.99 and the recall score is 0.68.
 
 ##SMOTE
-                  pre       rec       spe        f1       geo       iba       sup
-
-  high_risk       0.01      0.63      0.66      0.02      0.64      0.41        87
-   low_risk       1.00      0.66      0.63      0.79      0.64      0.42     17118
-
-avg / total       0.99      0.66      0.63      0.79      0.64      0.42     17205
-
+![image](https://user-images.githubusercontent.com/96396696/175616290-836259fc-6c0e-4e33-b397-e25588bce7a8.png)
 The balanced accuracy score was 0.64 (0.6443721269403855), the precision score is 0.99 and the recall score is 0.66.
 
 ##Cluster Ceentroids
-                   pre       rec       spe        f1       geo       iba       sup
-
-  high_risk       0.01      0.59      0.44      0.01      0.51      0.26        87
-   low_risk       1.00      0.44      0.59      0.61      0.51      0.25     17118
-
-avg / total       0.99      0.44      0.59      0.60      0.51      0.25     17205
+![image](https://user-images.githubusercontent.com/96396696/175616188-7fd15e3b-ee18-4dc3-b37c-b60c1acba0a3.png)
 
 The balanced accuracy score was 0.93 (0.9316600714093861), the precision score is 0.99 and the recall score is 0.44.
 
 ##Smoteenn
-                   pre       rec       spe        f1       geo       iba       sup
-
-  high_risk       0.01      0.71      0.56      0.02      0.63      0.41        87
-   low_risk       1.00      0.56      0.71      0.72      0.63      0.40     17118
-
-avg / total       0.99      0.56      0.71      0.72      0.63      0.40     17205
-
+![image](https://user-images.githubusercontent.com/96396696/175616104-a8965472-365e-4051-9d59-2e1a5197fa91.png)
 The balanced accuracy score was 0.51 (0.5117037520496674), the precision score is 0.99 and the recall score is 0.56.
 
 ##Balanced Random Forest Classifier
-                  pre       rec       spe        f1       geo       iba       sup
-
-  high_risk       0.03      0.70      0.87      0.06      0.78      0.60       101
-   low_risk       1.00      0.87      0.70      0.93      0.78      0.62     17104
-
-avg / total       0.99      0.87      0.70      0.93      0.78      0.62     17205
+ ![image](https://user-images.githubusercontent.com/96396696/175615994-32e33806-0dc8-499f-badf-289e2d827a76.png)
 
 The balanced accuracy score was 0.79 (0.7885466545953005), the precision score is 0.99 and the recall score is 0.87.
 
 ##Easy Ensemble Classifer Model
-               pre       rec       spe        f1       geo       iba       sup
-
-  high_risk       0.09      0.92      0.94      0.16      0.93      0.87       101
-   low_risk       1.00      0.94      0.92      0.97      0.93      0.87     17104
-
-avg / total       0.99      0.94      0.92      0.97      0.93      0.87     17205
-
+ ![image](https://user-images.githubusercontent.com/96396696/175615839-eb794917-1e9a-41a9-8e1d-be55311bf396.png)
 The balanced accuracy score was 0.93 (0.9316600714093861), the precision score is 0.99 and the recall score is 0.94.
