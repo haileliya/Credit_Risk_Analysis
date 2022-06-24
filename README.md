@@ -6,7 +6,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 For this analysis, the data source that was used was LoanStats_2019Q1.csv file and Python to evaluate several machine learning models to predict risk. 
 
-##Results: 
+**Results: 
 
 - RandomOverSampler Model
 ![image](https://user-images.githubusercontent.com/96396696/175616400-13df0a06-577c-4589-ab1e-bb9d00cb1fc2.png)
@@ -21,7 +21,7 @@ The balanced accuracy score was 0.64 (0.6443721269403855), the precision score i
 - Cluster Ceentroids
 ![image](https://user-images.githubusercontent.com/96396696/175616188-7fd15e3b-ee18-4dc3-b37c-b60c1acba0a3.png)
 
-The balanced accuracy score was 0.93 (0.9316600714093861), the precision score is 0.99 and the recall score is 0.44.
+The balanced accuracy score was 0.51 (0.5117037520496674), the precision score is 0.99 and the recall score is 0.44.
 
 - Smoteenn
 ![image](https://user-images.githubusercontent.com/96396696/175616104-a8965472-365e-4051-9d59-2e1a5197fa91.png)
@@ -37,3 +37,8 @@ The balanced accuracy score was 0.79 (0.7885466545953005), the precision score i
 ![image](https://user-images.githubusercontent.com/96396696/175615839-eb794917-1e9a-41a9-8e1d-be55311bf396.png)
 
 The balanced accuracy score was 0.93 (0.9316600714093861), the precision score is 0.99 and the recall score is 0.94.
+
+**Summary
+
+All of these models tried to calculated credit card risk for banks, however most of them did not provide precision to determining risk. The best model was the easy ensemble classifer model because it showed a 93% recalll.
+
